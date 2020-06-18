@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 9128773495855167462}
   - component: {fileID: 3682253748499513583}
   - component: {fileID: 1221792054}
-  - component: {fileID: 1221792059}
+  - component: {fileID: 8675588321544030180}
   m_Layer: 0
   m_Name: AngryDuck
   m_TagString: Untagged
@@ -155,7 +155,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3068709404102748816}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.35
@@ -176,7 +176,7 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &1221792059
+--- !u!114 &8675588321544030180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,6 +188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1cf1b698ab752243a1eb0f9b3af33ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  jumpForce: 5
+  yMax: 4
+  yMin: -5.5
+  onFloor: 0
 --- !u!1 &3215714166224241422
 GameObject:
   m_ObjectHideFlags: 0
